@@ -141,10 +141,6 @@ class Calculadora:
             return "Erro: divisão por zero!"
         return a / b
 
-
-# ---------------------------
-# Testando a classe
-# ---------------------------
 calc = Calculadora()
 
 print("Soma: ", calc.soma(10.5, 5.2))
